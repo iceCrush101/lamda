@@ -1,0 +1,562 @@
+body {}
+
+/*header css starts*/
+
+.header {
+	background-image: url(../image/banner-bg.png);
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	background-position: left;
+}
+.navbar .logo {
+    margin-left: -45px;
+}
+.navbar .navbar-nav {
+    margin-top: -4%;
+}
+.navbar .nav-item {
+    padding: 26px 2%;
+    position: relative;
+    margin-top: 30px;
+    transition: all 0.4s ease-in-out;
+}
+.navbar .nav-item .nav-link {}
+.navbar-nav li::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 3px;
+	background-color: #fff;
+	transition: 0.4s linear;
+}
+.navbar-nav li::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 3px;
+	background-color: #fff;
+	transition: 0.4s linear;
+}
+.navbar-nav li:hover::before {
+	width: 53%
+}
+.navbar-nav li:hover::after {
+	width: 53%
+}
+.navbar .nav-item:hover .nav-link {
+	color: #111;
+}
+.navbar .nav-item .nav-link {
+	font-family: 'Gentium Book Basic', serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.menu-fonts {
+    display: inline-block;
+    margin-right: -60px;
+}
+.menu-fonts .nav-fonts {
+    padding: 0 7px;
+}
+.menu-fonts .nav-fonts .fa {
+    font-size: 21px;
+    color: #dab33e;
+    transition: all 0.4s ease-in-out;
+}
+.menu-fonts .nav-fonts .fa:hover {
+	color:#28acd2 ;
+}
+.banner-slogan {
+    margin-left: 4%;
+}
+.banner-slogan .headline {
+    font-family: 'Yeseva One', cursive;
+    font-size: 90px;
+    color: #Fff;
+    padding: 0 4%;
+    margin-top: 12%;
+}
+ .banner-ds {
+    
+margin-top: 35px;
+}
+.menu-btns .btn {
+    padding: 1.3% 6%;
+    margin-top: 30px;
+    border-radius: unset;
+}
+.menu-btns .btn-cta {
+	background-color: rgba(24, 22, 22, 0.6);
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 10px;
+	position: relative;
+	z-index: 1;
+}
+.btn-cta::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background-color: #343841;
+	transition:all 0.7s ease-in-out;
+	z-index: -1;
+	border:3px #343841 solid;
+	opacity: 0;
+	color: #4c4c4c;
+
+}.btn-cta::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 100%;
+	background-color: #343841;
+	transition:all 0.7s ease-in-out;
+	z-index: -1;
+	border:3px #343841 solid;
+	opacity: 0;
+	color: #4c4c4c;
+}
+.btn-cta:hover::before {
+	width: 53%;
+	opacity: 1;
+	color: #4c4c4c;
+}
+.btn-cta:hover::after {
+	width: 53%;
+	opacity: 1;
+	color: #4c4c4c;	
+}
+.menu-btns .btn-ghost {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 10px;
+    border: 1px solid #ededed;
+    position: relative;
+    z-index: 1;
+}
+.btn-ghost::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background-color: #343841;
+	transition:all 0.6s ease-in-out;
+	z-index: -1;
+	border:3px #343841 solid;
+	opacity: 0;
+	color: #4c4c4c;
+
+}
+.btn-ghost::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 100%;
+	background-color: #343841;
+	transition:all 0.6s ease-in-out;
+	z-index: -1;
+	border:3px #343841 solid;
+	opacity: 0;
+	color: #4c4c4c;
+}
+.btn-ghost:hover::before {
+	width: 53%;
+	opacity: 1;
+	color: #4c4c4c;
+}
+.btn-ghost:hover::after {
+	width: 53%;
+	opacity: 1;
+	color: #4c4c4c;	
+}
+.btn-ghost:hover {
+	border: unset;
+}
+
+/*header css ends*/
+
+/*about css starts*/
+
+.about {
+    height: 90vh;
+    background-image: url(../image/about-bg.png);
+}
+.about-det {
+    margin-top: 21%;
+}
+.about-text {
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+    font-size: 36px;
+}
+.about-dec {
+    margin-top: 1%;
+}
+.about-para {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 0 60px;
+    margin-top: 5%;
+}
+.about-img {
+    width: 35%;
+    margin-left: 17%;
+    margin-top: 5%;
+}
+.about-img2 {}
+.about-img2 .mockup1 {
+    width: 105%;
+    margin-top: 12%;
+    margin-left: -8%;
+}
+
+/*about css ends*/
+
+/*feature css starts*/
+
+.feature {
+	background-image: url(../image/feature-bg.png);
+	height: 95vh;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+}
+.feature .feature-box {
+	height: 66vh;
+	width: 43%;
+	position: absolute;
+	background: #eded;
+	top: 0;
+	left: 0;
+	transform: translate(122%,22%);
+	background-color: rgba(14,16,18,0.6);
+}
+.feature .feature-text {
+	font-family: 'Yeseva One', cursive;
+	color: #fff;
+	font-size: 36px;
+	margin-top: 15%;
+}
+.feature .feature-dec {
+	margin-top: 2%;
+}
+.feature .feature-para {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 5%;
+}
+.feature .feature-img1 {
+	width: 60%;
+	margin-left: 50%;
+	margin-top: 25%;
+}
+.feature .feature-img2 {
+	width: 60%;
+	margin-left: 15%;
+	margin-top: 25%;
+}
+.feature .feature-img3 {
+	width: 60%;
+	margin-left: -20%;
+	margin-top: 25%;
+}
+
+/*feature css ends*/
+
+/*pricing css starts*/
+
+.pricing {
+	height: 125vh;
+	background-image: url(../image/menucard-bg.png);
+	background-size: cover;
+	background-position: center;
+}
+.pricing .menu1 {
+    margin-top: 17%;
+    margin-right: 14%;
+}
+.menu1 .menu-text {
+	font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+    font-size: 36px;
+}
+.menu1 .menu-dec {}
+.menu1 .menu-cntrl {
+    list-style: none;
+    margin-top: 5%;
+}
+.menu1 .menu-item {
+    margin-top: 4%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #d6bb6b;
+}
+.menu-item .menu-name {
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    color: #d6bb6b;
+}
+.menu-item .menu-price {
+    float: right;
+}
+.menu-cntrl .menu-info {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+    margin-top: 1%;
+}
+.pricing .menu2 {
+    margin-top: 9%;
+    margin-right: 14%;
+}.menu2 .menu-text {
+	font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+    font-size: 36px;
+}
+.menu2 .menu-dec {}
+.menu2 .menu-cntrl {
+    list-style: none;
+    margin-top: 5%;
+}
+.menu2 .menu-item {
+    margin-top: 4%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #d6bb6b;
+    
+}
+.menu2 .special {
+    margin-left: 85%;
+    margin-right: -2%;
+    margin-bottom: -4%;
+    background-color: #d6bb6b;
+    color: #fff;
+    font-size: 14px;
+    padding: 0.9% 3%;
+}
+.menu2 .menu-item-sp {
+    margin-top: 4%;
+    padding: 1% 2%;
+    border: 1px solid #d6bb6b;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+.menu-item .menu-name {
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    color: #d6bb6b;
+}
+.menu-item-sp .menu-name {
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    color: #d6bb6b;
+}
+.menu-item .menu-price {
+    float: right;
+}
+.menu-item-sp .menu-price {
+    float: right;
+    
+}
+.menu-item-sp .menu2-info {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #4c4c4c;
+	padding: 2% 0;
+	margin: 0;
+	border-top: 1px solid #d6bb6b;
+}
+.menu-cntrl .menu-info {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+    margin-top: 1%;
+}
+.list-sp {
+    display: block;
+    box-sizing: border-box;
+}
+
+/*pricing css ends*/
+
+/*review css starts*/
+
+.review {
+	background-image: url(../image/review-bg.png);
+	height: 95vh;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+}
+.review .review-box {
+	height: 68vh;
+	width: 65%;
+	position: absolute;
+	background-image: url(../image/reviewcard-bg.png);
+	top: 0;
+	left: 0;
+	transform: translate(27%,19%);
+}
+.review .review-text {
+	font-family: 'Yeseva One', cursive;
+	color: #fff;
+	font-size: 36px;
+	margin-top: 9%;
+}
+.review .feature-dec {
+	margin-top: 2%;
+}
+.review .comma {display: block;margin-left: 5%;margin-bottom: -2%;margin-top: 3%;}
+.review .review-para {
+    font-family: 'Gentium Book Basic', serif;
+    color: #dde0df;
+    font-size: 24px;
+    /* margin-top: 5%; */
+    padding: 0 9%;
+    font-weight: 600;
+}
+.review .address {
+	margin-top: 3%;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+
+/*review css ends*/
+
+/*contact css starts*/
+
+.contact {
+	height: 100vh;
+	background-image: url(../image/contact-bg.png);
+	background-position: center;
+	background-size: cover;
+}
+.contact-img1 {
+	margin-top: 50%;
+    width: 107%;
+    margin-left: -20%;
+}
+.contact-img2 {
+	margin-top: 50%;
+    width: 107%;
+    margin-left: -10%;
+}
+.contact-det {
+    margin-top: 21%;
+}
+.contact-text {
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+    font-size: 36px;
+}
+.contact-dec {
+    margin-top: 1%;
+}
+.contact-para1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 0 60px;
+    margin-top: 5%;
+}.contact-para2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 0 60px;
+    margin-top: 5%;
+}
+.contact-form {
+    margin-left: 12%;
+}
+.form-name {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    color: #c9a131;
+    margin-top: 10%;
+}
+.form-control {
+	margin-left: 0%;
+	width: 90%;
+	border-radius: inherit;
+}
+.btn-primary {
+    margin-top: 6%;
+    width: 46%;
+    background-color: #c9a131;
+    border: none;
+    border-radius: inherit;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.6s ease-in-out;
+}
+
+/*contact css ends*/
+
+/*footer css starts*/
+
+.footer {
+	background-color: #191919;
+	height: 40vh;
+}
+.footer-box {
+    margin-top: 17%;
+}
+.footer-text {
+    font-family: 'Yeseva One', cursive;
+    color: #fff;
+}
+.footer-dec {}
+.footer-para {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    padding: 0 4s%;
+    color: #fff;
+    margin-top: 5%;
+}
+.footer-box span {
+    font-weight: 700;
+    font-size: 14px;
+}
+.footer-text2 { 
+	font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    margin-top: 5%;
+}
+.footer-text3 { 
+	font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #fff;
+}
+.pay {
+    margin-left: -10%;
+    margin-top: 10%;
+}
+.pay-list {
+    list-style: none;
+    display: inline-block;
+    padding: 0 1%;
+}
+.fa {
+	color: #fff;
+}
+.fa:hover {
+	color: #28acd2;
+}
+
+/*footer css ends*/
